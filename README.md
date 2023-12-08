@@ -37,7 +37,7 @@ The documentation can be found https://reactrouter.com/en/main
    - function App () {
          return <RouterProvider router={router}/>;
      }
-
+- in place where we want to display all pages - RootLayout -add <Outlet/>
 - To reach the route (navigate) to it
     - import { NavLink } from 'react-router-dom';
     -    <NavLink
